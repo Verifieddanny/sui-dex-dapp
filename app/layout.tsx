@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sui LP DEX",
   description: "A decentralized exchange for SUI and USDC liquidity pools",
+  openGraph:{
+    images: "https://sui-dex-dapp.vercel.app/open-graph.png"
+  }
 };
 
 export default function RootLayout({
